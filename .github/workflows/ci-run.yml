@@ -24,7 +24,7 @@ jobs:
         pipenv update --dev
     - name: Lint with ruff
       run: |
-        pipenv run ruff
+        pipenv run ruff check
     - name: Test with unittest
       run: |
         python -m unittest tests/
