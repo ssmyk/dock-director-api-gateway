@@ -1,5 +1,4 @@
 FROM python:3.12-alpine
-
 WORKDIR dock_director_api_gateway/
 ENV PYTHONPATH=/dock_director_api_gateway
 RUN pip install pipenv
