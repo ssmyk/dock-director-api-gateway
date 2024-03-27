@@ -8,10 +8,10 @@ fastapi = "*"
 pydantic-settings = "*"
 uvicorn = "*"
 httpx = "*"
+ruff = "*"
 
 [dev-packages]
 pre-commit = "*"
-ruff = "*"
 
 [requires]
 python_version = "3.12"
