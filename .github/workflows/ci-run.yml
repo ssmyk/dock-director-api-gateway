@@ -27,4 +27,4 @@ jobs:
         pipenv run ruff check
     - name: Test with unittest
       run: |
-        python -m unittest tests/
+        python -m unittest
