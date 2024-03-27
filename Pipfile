@@ -11,8 +11,6 @@ httpx = "*"
 
 [dev-packages]
 pre-commit = "*"
-
-[ci-packages]
 ruff = "*"
 
 [requires]
