@@ -5,6 +5,11 @@ name = "pypi"
 
 [packages]
 fastapi = "*"
+pydantic-settings = "*"
+uvicorn = "*"
+httpx = "*"
+ruff = "*"
+starlette = "*"
 
 [dev-packages]
 pre-commit = "*"
