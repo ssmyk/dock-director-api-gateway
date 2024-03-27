@@ -5,9 +5,15 @@ name = "pypi"
 
 [packages]
 fastapi = "*"
+pydantic-settings = "*"
+uvicorn = "*"
+httpx = "*"
 
 [dev-packages]
 pre-commit = "*"
+
+[ci-packages]
+ruff = "*"
 
 [requires]
 python_version = "3.12"
